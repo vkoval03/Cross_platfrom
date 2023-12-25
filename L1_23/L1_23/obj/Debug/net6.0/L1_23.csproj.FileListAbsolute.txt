@@ -1,0 +1,14 @@
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\bin\Debug\net6.0\L1_23.exe
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\bin\Debug\net6.0\L1_23.deps.json
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\bin\Debug\net6.0\L1_23.runtimeconfig.json
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\bin\Debug\net6.0\L1_23.dll
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\bin\Debug\net6.0\L1_23.pdb
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\L1_23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\L1_23.AssemblyInfoInputs.cache
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\L1_23.AssemblyInfo.cs
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\L1_23.csproj.CoreCompileInputs.cache
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\L1_23.dll
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\refint\L1_23.dll
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\L1_23.pdb
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\L1_23.genruntimeconfig.cache
+C:\Users\plast\Desktop\Універ\4 курс\Крос\L1_23\L1_23\obj\Debug\net6.0\ref\L1_23.dll
