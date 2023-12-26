@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zd0UP011JhPL1oo9DSWjcNQg+B3gExx46SjTCj0qPONzf3QvO6FilXh2TXAwoaDUxeRQX+jQHE/BVwP46bVTMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\plast\\Desktop\\Універ\\4 курс\\Крос\\L4_23\\L4_23\\L4_23\\L4_23.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\plast\\.nuget\\packages\\mcmaster.extensions.commandlineutils\\4.1.0\\mcmaster.extensions.commandlineutils.4.1.0.nupkg.sha512",
+    "C:\\Users\\plast\\.nuget\\packages\\nuget.commandline\\6.8.0\\nuget.commandline.6.8.0.nupkg.sha512",
+    "C:\\Users\\plast\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
