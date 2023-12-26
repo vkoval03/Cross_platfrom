@@ -1,0 +1,42 @@
+﻿@model Lab5.Models.L2DataModel
+
+@{
+    ViewData["Title"] = "Change Possibility Analysis";
+}
+
+<h2>Change Possibility Analysis</h2>
+<p>Enter the available coins and the sums to check for change possibility. Separate the numbers by spaces.</p>
+
+<form method="post" asp-controller="Labs" asp-action="Lab2">
+    <div class="form-group">
+        <label for="coins">Enter Coins:</label>
+        <input type="text" class="form-control" id="coins" asp-for="CoinsInput" placeholder="Enter coins">
+        <small class="form-text text-muted">Format: Enter coin values separated by spaces (e.g., 1 5 10)</small>
+    </div>
+    <div class="form-group">
+        <label for="sums">Enter Sums:</label>
+        <input type="text" class="form-control" id="sums" asp-for="SumsInput" placeholder="Enter sums">
+        <small class="form-text text-muted">Format: Enter sums to check separated by spaces (e.g., 20 30 50)</small>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Analyze</button>
+</form>
+
+<text> &nbsp; &nbsp; &nbsp;</text>
+
+@if (Model != null)
+{
+    <div class="container mt-5">
+        @if (!string.IsNullOrEmpty(Model.ErrorValue))
+        {
+            <div class="alert alert-danger" role="alert">
+                @Model.ErrorValue
+            </div>
+        }
+        @if (!string.IsNullOrEmpty(Model.Calculated))
+        {
+            <div class="form-group">
+                <h3 class="control-label">Result: @Model.Calculated</h3>
+            </div>
+        }
+    </div>
+}

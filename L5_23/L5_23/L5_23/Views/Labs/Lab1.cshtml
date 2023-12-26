@@ -1,0 +1,41 @@
+﻿@model Lab5.Models.L1DataModel
+
+@{
+    ViewData["Title"] = "Lab1";
+}
+
+<h2>Number of division methods</h2>
+
+<form method="post" asp-controller="Labs" asp-action="Lab1">
+    <div class="form-group">
+        <label for="x">Enter X:</label>
+        <input type="number" class="form-control" id="x" asp-for="X" placeholder="Enter X">
+        <small class="form-text text-muted">X should be between 0 and 500 and divisible by 5.</small>
+    </div>
+    <div class="form-group">
+        <label for="k" class="mt-3">Enter K:</label>
+        <input type="number" class="form-control" id="k" asp-for="K" placeholder="Enter K">
+        <small class="form-text text-muted">K should be between 0 and 100.</small>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Calculate</button>
+</form>
+
+<text> &nbsp; &nbsp; &nbsp;</text>
+
+@if (Model != null)
+{
+    <div class="container mt-5">
+        @if (!string.IsNullOrEmpty(Model.ErrorValue))
+        {
+            <div class="alert alert-danger" role="alert">
+                @Model.ErrorValue
+            </div>
+        }
+        @if (!string.IsNullOrEmpty(Model.Calculated))
+        {
+            <div class="form-group">
+                <h3 class="control-label">Result: @Model.Calculated</h3>
+            </div>
+        }
+    </div>
+}
